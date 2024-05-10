@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './structures/header/header.component';
 import { FooterComponent } from './structures/footer/footer.component';
 import { CardComponent } from './structures/card/card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
+import { DocumentsComponent } from './pages/documents/documents.component';
+import { RaceComponent } from './pages/race/race.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CardComponent } from './structures/card/card.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    GalleryComponent,
+    DocumentsComponent,
+    RaceComponent
   ],
   imports: [
     BrowserModule,

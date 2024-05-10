@@ -1,9 +1,9 @@
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 12vh;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -12,14 +12,11 @@ header {
   font-weight: 600;
 }
 
-header img {
-    margin: 0 16px;
-  }
+.menu-item {
 
-header h2 {
   margin: 0 16px;
-}
 
-.menu-item:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
