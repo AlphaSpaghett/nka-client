@@ -8,7 +8,6 @@ import { FooterComponent } from './structures/footer/footer.component';
 import { CardComponent } from './structures/card/card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
-import { DocumentsComponent } from './pages/documents/documents.component';
 import { RaceComponent } from './pages/race/race.component';
 
 @NgModule({
@@ -19,14 +18,10 @@ import { RaceComponent } from './pages/race/race.component';
     FooterComponent,
     CardComponent,
     GalleryComponent,
-    DocumentsComponent,
-    RaceComponent
+    RaceComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
